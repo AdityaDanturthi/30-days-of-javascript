@@ -1,3 +1,4 @@
+// Primitive data types
 let word = 'JavaScript'
 
 let numOne = 1
