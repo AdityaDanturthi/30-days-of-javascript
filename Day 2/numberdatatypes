@@ -1,0 +1,6 @@
+// Number Data Types
+let age = 100
+const gravity = 9.81 
+const PI =3.14
+
+console.log("Age:",age,",","Gravity:", gravity,",","PI:", PI)
