@@ -4,3 +4,29 @@ const gravity = 9.81
 const PI =3.14
 
 console.log("Age:",age,",","Gravity:", gravity,",","PI:", PI)
+
+// Math Object
+
+const PI = Math.PI
+console.log("PI:",PI)
+console.log("PI (rounded):",Math.round(PI))
+console.log("PI (floor):",Math.floor(PI)) // rounding down
+console.log("PI (ceil):",Math.ceil(PI)) // rounding up
+console.log("Min:",Math.min(15,10,5,20,2,1,8,9))
+console.log("Max:",Math.max(15,10,5,20,2,1,8,9))
+
+let randNum = Math.random()
+console.log("Random number:", randNum)
+
+// Random number between 0 and 10
+let num = Math.floor(Math.random() * 11)
+console.log("Random number between 0 and 10:", num)
+
+// Absolute value
+console.log("Absolute value of -100 is:",Math.abs(-100))
+
+// Square root
+console.log("Square root of 100 is:",Math.sqrt(100))
+
+// Power
+console.log("3 to the power of 2 is:",Math.pow(3,2))
