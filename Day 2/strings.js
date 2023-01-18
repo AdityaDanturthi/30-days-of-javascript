@@ -25,3 +25,9 @@ console.log('Name in lowercase:',lowerName)
 
 console.log('Substr of name:',name.substr(0,3)) //substr(): It takes two arguments, the starting index and number of characters to slice.
 console.log('Substring of name:',name.substring(0,3)) //substring(): It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+
+namewithextraspaces = ' Aditya '
+console.log(name.trim())
+
+console.log(name.split(''))
+console.log(name.includes('Adi'))
