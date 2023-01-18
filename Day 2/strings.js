@@ -31,3 +31,6 @@ console.log(name.trim())
 
 console.log(name.split(''))
 console.log(name.includes('Adi'))
+
+let string = '30 Days Of JavaScript'
+console.log(string.replace('JavaScript', 'Python'))
