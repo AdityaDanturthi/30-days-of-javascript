@@ -91,7 +91,7 @@ let weeklypay = hours*rate
 console.log(`Weekly earnings: ${weeklypay}`)
 
 // If the length of your name is greater than 7 say, your name is longer than 7 characters else say your name is less than 7 characters.
-let name = prompt('Please inut your name:')
+let name = prompt('Please input your name:')
 
 name.length > 6
  ? console.log('Your name is greater than 7 characters!')
