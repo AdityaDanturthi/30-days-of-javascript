@@ -82,3 +82,10 @@ let y2 = 10
 
 let m = (y2-y1)/(x2-x1)
 console.log(`The slope between point (2, 2) and point (6,10) is: ${m}`)
+
+// Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+let hours = prompt('Please input number of hours work per week:')
+let rate = prompt('Please input your hourly rate:')
+
+let weeklypay = hours*rate
+console.log(`Weekly earnings: ${weeklypay}`)
