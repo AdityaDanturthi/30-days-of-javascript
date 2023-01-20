@@ -66,3 +66,10 @@ const hours = now.getHours()
 const minutes = now.getMinutes()
 
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
+
+// Exercises: Level 2
+
+// Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+let base= prompt('Please input the base of the triangle:')
+let height= prompt('Please input the height of the triangle:')
+console.log("The area of the triangle is:", 0.5*base*height)
