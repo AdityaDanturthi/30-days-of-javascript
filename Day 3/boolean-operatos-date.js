@@ -34,15 +34,6 @@ console.log(number)
 const now = new Date()
 console.log(now)
 
-// Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
-let x1 = 2
-let y1 = 2
-let x2 = 6
-let y2 = 10
-
-let m = (y2-y1)/(x2-x1)
-console.log(`The slope between point (2, 2) and point (6,10) is: ${m}`)
-
 // Extracting year from date object
 console.log(now.getFullYear())
 
@@ -82,3 +73,12 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
 let base= prompt('Please input the base of the triangle:')
 let height= prompt('Please input the height of the triangle:')
 console.log("The area of the triangle is:", 0.5*base*height)
+
+// Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+let x1 = 2
+let y1 = 2
+let x2 = 6
+let y2 = 10
+
+let m = (y2-y1)/(x2-x1)
+console.log(`The slope between point (2, 2) and point (6,10) is: ${m}`)
