@@ -96,3 +96,19 @@ let name = prompt('Please input your name:')
 name.length > 6
  ? console.log('Your name is greater than 7 characters!')
  : console.log('Your name is less than 7 characters!')
+
+/* Create a human readable time format using the Date time object
+YYYY-MM-DD HH:mm
+DD-MM-YYYY HH:mm
+DD/MM/YYYY HH:mm */
+
+let now = new Date()
+let year = now.getFullYear()
+let month = now.getMonth() + 1
+let date = now.getDate()
+let hours = now.getHours()
+let minutes = now.getMinutes()
+
+console.log(`${year}-${month}-${date} ${hours}:${minutes}`) //YYYY-MM-DD HH:mm
+console.log(`${date}-${month}-${year} ${hours}:${minutes}`) //DD-MM-YYYY HH:mm
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`) //DD/MM/YYYY HH:mm
