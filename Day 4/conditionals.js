@@ -101,7 +101,7 @@ check%2 == 0 ? console.log(`${check} is an even number!`) : console.log(`${check
 60-69, C
 50-59, D */
 
-        let score = parseInt(prompt('Please input the sutdent\'s score: '))
+let score = parseInt(prompt('Please input the sutdent\'s score: '))
 if(score >= 80 && score <= 100){
     console.log('Grade: A')
 } else if(score >= 70 && score <= 79) {
