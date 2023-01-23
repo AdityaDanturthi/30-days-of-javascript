@@ -62,3 +62,22 @@ else {
     let diff = 18 - age
     console.log(`You can drive in ${diff} year(s)!`)
 }
+        
+/* If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways using:
+- if else
+- ternary operator */
+
+// Using if else
+let a = 1
+let b = 2
+
+if(a > b){
+    console.log('a is greater than b')
+} else {
+    console.log('a is less than b')
+}
+
+// Using ternary operator
+a > b
+? console.log('a is greater than b')
+: console.log('a is less than b')
