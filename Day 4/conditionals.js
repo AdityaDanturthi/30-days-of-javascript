@@ -81,3 +81,16 @@ if(a > b){
 a > b
 ? console.log('a is greater than b')
 : console.log('a is less than b')
+
+// Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+let check = parseInt(prompt('Enter a number to check if it even or odd: '))
+
+// if else
+if(check%2 == 0){
+    console.log(`${check} is an even number!`)
+} else {
+    console.log(`${check} is an odd number!`)
+}
+
+// ternary operator
+check%2 == 0 ? console.log(`${check} is an even number!`) : console.log(`${check} is an odd number!`) 
