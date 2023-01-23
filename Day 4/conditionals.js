@@ -50,7 +50,7 @@ switch(selection){
     default:
         console.log('No a valid selection. Please try again!')
 
-Exercises: Level 1
+// Exercises: Level 1
 
 // Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
@@ -95,6 +95,8 @@ if(check%2 == 0){
 // ternary operator
 check%2 == 0 ? console.log(`${check} is an even number!`) : console.log(`${check} is an odd number!`) 
 
+// Exercises: Level 2
+        
 /* Write a code which can give grades to students according to theirs scores:
 80-100, A
 70-79, B
@@ -111,3 +113,5 @@ if(score >= 80 && score <= 100){
 } else if(score >= 50 && score <= 59) {
     console.log('Grade: D')
 }
+        
+
