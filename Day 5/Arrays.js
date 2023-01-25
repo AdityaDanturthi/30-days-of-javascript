@@ -10,4 +10,4 @@ console.log(arr1)
 let skills = ['Python', 'JS', 'HTML', 'CSS', 'SQL', 'Power BI', 'Tableau']
 
 console.log('Skills: ', skills)
-console.log('Lenght of skills:', skills.length)
+console.log('Length of skills:', skills.length)
