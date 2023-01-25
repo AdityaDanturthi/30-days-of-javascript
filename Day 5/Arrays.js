@@ -11,3 +11,6 @@ let skills = ['Python', 'JS', 'HTML', 'CSS', 'SQL', 'Power BI', 'Tableau']
 
 console.log('Skills: ', skills)
 console.log('Length of skills:', skills.length)
+
+let arr1 = ['Aditya', 25, {skills: ['Python', 'JS', 'HTML', 'CSS', 'SQL', 'Power BI', 'Tableau']}] // array containing different data types
+console.log(arr1)
