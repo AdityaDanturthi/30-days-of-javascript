@@ -32,6 +32,11 @@ lastIndex = fruits.length - 1
 lastFruit = fruits[lastIndex]
 console.log('First fruit in the list:', lastFruit)
 
-// Modifying an array 
+// Modifying an element in an array 
 fruits[1] = 'Mango'
 console.log(fruits[1])
+
+lastindex = fruits.length-1 
+console.log('Last fruit:', fruits[lastindex])
+fruits[lastindex] = 'Banana'
+console.log('Last fruit:', fruits[lastindex])
