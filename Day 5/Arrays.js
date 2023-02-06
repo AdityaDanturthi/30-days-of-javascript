@@ -40,3 +40,16 @@ lastindex = fruits.length-1
 console.log('Last fruit:', fruits[lastindex])
 fruits[lastindex] = 'Banana'
 console.log('Last fruit:', fruits[lastindex])
+
+// Methods to manipulate arrays
+
+// Array constructor
+const arr = Array()
+console.log(arr)
+
+const arrayOfSizeEight = Array(8)
+console.log(arrayOfSizeEight)
+
+// creating static values with fill()
+const arr1 = Array(8).fill(1)
+console.log(arr1)
