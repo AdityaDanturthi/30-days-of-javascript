@@ -53,3 +53,16 @@ console.log(arrayOfSizeEight)
 // creating static values with fill()
 const arr1 = Array(8).fill(1)
 console.log(arr1)
+
+// Concatenating arrays using concat()
+const arr123 = Array(1,2,3) // using array constructor
+const arr456 = Array(4,5,6) // using array constructor
+
+const numbers = arr123.concat(arr456)
+console.log(numbers)
+
+const arr1 = [1,2,3] // direct declaration
+const arr2 = [4,5,6] // direct declaration
+
+const arr12 = arr1.concat(arr2)
+console.log(arr12)
