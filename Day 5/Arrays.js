@@ -146,6 +146,5 @@ for( i = 0; i < ITCompanies.length; i++){
 }
 
 // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
-
 sentence = ITCompanies.slice(0,ITCompanies.length-1).join(', ') +" and "+ ITCompanies.slice(-1) +" are IT companies!"
 console.log(sentence)
