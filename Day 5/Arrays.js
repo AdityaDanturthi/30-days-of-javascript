@@ -85,3 +85,67 @@ if(arr12.indexOf(elementToSearch) == -1){
 
 // Checking if an element exists in an array using ternary operator
 arr12.indexOf(elementToSearch) == -1 ? console.log('Element does not exist in the array!') : console.log('Element exists at '+ arr12.indexOf(elementToSearch) +' position in the array!')
+
+// Exercises: Level 1
+
+//Declare an empty array;
+arr = []
+console.log(typeof arr)
+
+// Declare an array with more than 5 elements
+arr = [1,2,3,4,5,6]
+console.log(arr)
+
+// Find the length of your array
+console.log('Length:',arr.length)
+
+// Get the first item, the middle item and the last item of the array
+console.log('First element:',arr[0])
+
+middleIndex = Math.round((arr.length)/2)
+console.log('Middle element:',arr[middleIndex])
+
+lastIndex = arr.length - 1 
+console.log('Last element:',arr[lastIndex])
+
+// Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+mixedArray = [ 1,2,3,4,5,6, 
+    {skills: ['Python', 'HTML', 'CSS', 'JS', 'Power BI', 'Tableau', 'Pandas']},
+    true
+    ]
+
+console.log(mixedArray)
+console.log(mixedArray.length)
+
+// Declare an array with name ITCompanies and assign Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+ITCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+// Print the array using console.log()
+console.log(ITCompanies)
+
+// Print the number of companies in the array
+console.log('Number of companies:',ITCompanies.length)
+
+// Print the first company, middle and last company
+console.log('First company:',ITCompanies[0])
+
+middleIndex1 = Math.round(ITCompanies.length -1)/2
+console.log('Middle company:',ITCompanies[middleIndex1])
+
+lastIndex1 = ITCompanies.length - 1
+console.log('Last company:',ITCompanies[lastIndex1])
+
+// Print out each company
+for( i = 0; i < ITCompanies.length; i++){
+    console.log(ITCompanies[i])
+}
+
+// Change each company name to uppercase one by one and print them out
+for( i = 0; i < ITCompanies.length; i++){
+    console.log(ITCompanies[i].toUpperCase())
+}
+
+// Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+
+sentence = ITCompanies.slice(0,ITCompanies.length-1).join(', ') +" and "+ ITCompanies.slice(-1) +" are IT companies!"
+console.log(sentence)
