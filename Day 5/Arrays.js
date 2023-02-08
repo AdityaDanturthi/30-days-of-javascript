@@ -66,3 +66,22 @@ const arr2 = [4,5,6] // direct declaration
 
 const arr12 = arr1.concat(arr2)
 console.log(arr12)
+
+// Length of the array
+console.log(arr12.length)
+
+// Getting index of an element in the array
+console.log(arr12.indexOf(6))
+
+// Checking if an element exists in an array using if else
+console.log(arr12.indexOf(7))
+
+elementToSearch = 7
+if(arr12.indexOf(elementToSearch) == -1){
+    console.log('Element does not exist in the array!')
+} else {
+    console.log('Element exists at '+ arr12.indexOf(elementToSearch) +' position in the array!')
+}
+
+// Checking if an element exists in an array using ternary operator
+arr12.indexOf(elementToSearch) == -1 ? console.log('Element does not exist in the array!') : console.log('Element exists at '+ arr12.indexOf(elementToSearch) +' position in the array!')
