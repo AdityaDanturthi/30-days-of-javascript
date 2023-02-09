@@ -148,3 +148,6 @@ for( i = 0; i < ITCompanies.length; i++){
 // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 sentence = ITCompanies.slice(0,ITCompanies.length-1).join(', ') +" and "+ ITCompanies.slice(-1) +" are IT companies!"
 console.log(sentence)
+
+// Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+ITCompanies.includes('Docker') ? console.log('Company is in the list!') : console.log('Company not found!')
