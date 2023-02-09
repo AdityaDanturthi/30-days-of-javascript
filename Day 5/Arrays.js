@@ -151,3 +151,15 @@ console.log(sentence)
 
 // Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 ITCompanies.includes('Docker') ? console.log('Company is in the list!') : console.log('Company not found!')
+
+// Sort the array using sort() method
+console.log(ITCompanies.sort())
+
+// Reverse the array using reverse() method
+console.log(ITCompanies.reverse())
+
+// Slice out the first 3 companies from the array
+console.log(ITCompanies.slice(0,3))
+
+// Slice out the last 3 companies from the array
+console.log(ITCompanies.slice(-4).slice(1))
