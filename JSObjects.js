@@ -26,3 +26,7 @@ var drinkValue = testObj["the drink"];
 console.log(entreeValue);
 console.log(drinkValue);
 
+// Accessing object properties with variables
+var accObj = "the drink";
+var drinkValue = testObj[accObj];
+console.log(drinkValue);
