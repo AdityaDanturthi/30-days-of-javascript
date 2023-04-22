@@ -50,5 +50,8 @@ console.log(dog.name);
 
 // Adding new properties to an object
 dog['bark'] = 'woof-woof';
-
 console.log(dog.bark);
+
+// Deleting properties from an object
+ delete dog.tail;
+ console.log(dog.tail);
