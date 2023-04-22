@@ -42,3 +42,19 @@ for (var k=0; k<evenArray.length; k++) {
     total += evenArray[k];
 }
 console.log("Total:", total);
+
+// Nested for loop
+function multiplyAll(arr) {
+    var product = 1;
+
+    for (var l=0; l < arr.length; l++) {
+        for (var m=0; m < arr[l].length; m++) {
+            product *= arr[l][m];
+        }
+    }
+    return product;
+}
+
+var product = multiplyAll([[1,2], [3,4], [5,6,7]]);
+
+console.log("Product:",product);
