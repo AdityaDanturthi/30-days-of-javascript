@@ -19,12 +19,19 @@ while(i < 5) {
 
 // Iterate with For loop
 var myArray1 = [];
-for(j=0; j < 5; j++) {
+for(var j=0; j < 5; j++) {
     myArray1.push(j);
 }
 
 console.log(myArray1);
 
-for(j=0; j < 5; j++) {
+for(var j=0; j < 5; j++) {
     console.log(myArray1[j]);
 }
+
+var evenArray = [];
+for( var e=0; e<11; e += 2) {
+    evenArray.push(e);
+}
+
+console.log("Even array:",evenArray);
