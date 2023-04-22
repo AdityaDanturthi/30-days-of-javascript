@@ -43,3 +43,7 @@ console.log(valueOf2);
 var accObj = "the drink";
 var drinkValue = testObj[accObj];
 console.log(drinkValue);
+
+// Updating object properties
+dog.name = "Happy Dog";
+console.log(dog.name);
