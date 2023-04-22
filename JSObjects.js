@@ -1,4 +1,4 @@
-//JSON example
+//JS Objects example
 var dog = {
     "name": "dog",
     "legs": 4,
@@ -81,3 +81,5 @@ function checkObj(checkProp) {
 
 console.log(checkObj("tail")); // Property not found!
 console.log(checkObj("name")); // Happy Dog
+
+// Manipulating complex objects
