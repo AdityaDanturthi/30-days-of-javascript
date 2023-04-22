@@ -1,4 +1,4 @@
-//JS Objects example
+// JS Objects example
 var dog = {
     "name": "dog",
     "legs": 4,
@@ -83,3 +83,16 @@ console.log(checkObj("tail")); // Property not found!
 console.log(checkObj("name")); // Happy Dog
 
 // Manipulating complex objects
+var myMusic = [
+    {
+        "artist": "artist1",
+        "title": "title1",
+        "release year": 2023,
+        "formats": [
+            "CD",
+            "LP",
+            "8T"
+        ],
+        "released": true
+    }
+];
