@@ -220,3 +220,11 @@ function lookup(fname, prop) {
 
 var data = lookup("Michael", "likes");
 console.log(data);
+
+// Generating a random in a given range
+function randomNumber(myMin, myMax) {
+    return Math.floor(Math.random() * (myMax - myMin + 1)) - myMin;
+}
+
+var randnum = randomNumber(0,2);
+console.log(randnum);
