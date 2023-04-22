@@ -55,3 +55,17 @@ console.log(dog.bark);
 // Deleting properties from an object
  delete dog.tail;
  console.log(dog.tail);
+ 
+// Using objects for lookup
+function phoneticLookup(val) {
+    var result;
+
+    var lookup = {
+        "alpha": "a",
+        "beta": "b"
+    };
+    result = lookup[val];
+    return result;
+}
+
+console.log(phoneticLookup("alpha"));
