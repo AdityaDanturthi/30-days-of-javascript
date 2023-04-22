@@ -179,3 +179,44 @@ function updateRecords(id, prop, value) {
 }
 updateRecords(2468, "tracks", "test");
 console.log(updateRecords(5439, "artist", "ABBA"));
+
+//Profile lookup
+
+var contacts= [
+    {
+        "firstName": "Akira",
+        "lastName": "Laine",
+        "number": "0543236543",
+        "likes": ["Pizza", "Coding", "Brownie Points"]
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "number": "0994372684",
+        "likes": ["Hogwarts", "Magic", "Hagrid"]
+    },
+    {
+        "firstName": "Sherlock",
+        "lastName": "Holmes",
+        "number": "0487345643",
+        "likes": ["Violin"]
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Scott",
+        "number": "unknown",
+        "likes": ["Dunder Mifflin"]
+    }
+];
+
+function lookup(fname, prop) {
+    for(var i=0; i<contacts.length;i++){
+        if (contacts[i].firstName == fname) {
+            return contacts[i][prop] || "Property not found!";
+        }
+    }
+    return "Not found!";
+}
+
+var data = lookup("Michael", "likes");
+console.log(data);
