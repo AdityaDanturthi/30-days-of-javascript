@@ -6,9 +6,23 @@ var dog = {
     "friends": ["dog1", "dog2", 'dog3', 'dog4']
 };
 
-// Accessing a items in JSON
+// Accessing object properties with dot notation
 var nameValue = dog.name;
 var friendsValue = dog.friends;
 
 console.log(nameValue);
 console.log(friendsValue);
+
+// Accessing object properties with bracket notation
+var testObj = {
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
+};
+
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
+
+console.log(entreeValue);
+console.log(drinkValue);
+
