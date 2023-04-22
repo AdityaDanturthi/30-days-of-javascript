@@ -69,3 +69,15 @@ function phoneticLookup(val) {
 }
 
 console.log(phoneticLookup("alpha"));
+
+// Checking objects for properties
+function checkObj(checkProp) {
+    if (dog.hasOwnProperty(checkProp)) {
+        return dog[checkProp];
+    } else {
+        return "Property not found!";
+    }
+}
+
+console.log(checkObj("tail")); // Property not found!
+console.log(checkObj("name")); // Happy Dog
