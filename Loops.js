@@ -37,6 +37,8 @@ for( var e=0; e<11; e += 2) {
 console.log("Even array:",evenArray);
 
 // Iterating through an array using for loop and array.length
+var total = 0;
 for (var k=0; k<evenArray.length; k++) {
-    console.log(evenArray[k]);
+    total += evenArray[k];
 }
+console.log("Total:", total);
