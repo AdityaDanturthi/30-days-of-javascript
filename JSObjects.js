@@ -47,3 +47,8 @@ console.log(drinkValue);
 // Updating object properties
 dog.name = "Happy Dog";
 console.log(dog.name);
+
+// Adding new properties to an object
+dog['bark'] = 'woof-woof';
+
+console.log(dog.bark);
