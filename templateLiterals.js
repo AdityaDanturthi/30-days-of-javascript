@@ -21,7 +21,7 @@ const result = {
 
 function makelist(arr) {
     const resultDisplayArray = [];
-    for (var  i=0; i < arr.length; i++) {
+    for (let  i=0; i < arr.length; i++) {
         resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`); 
     }
 
@@ -34,10 +34,25 @@ console.log(resultDisplayArray);
 // Converted above function into an arrow function
 const resultDispArray = (list) => {
     const resArray = [];
-    for(var i=0; i<list.length; i++) {
+    for(let i=0; i<list.length; i++) {
         resArray.push(`<li class="text-warning">${list[i]}</li>`);
     }
     return resArray;
 };
 
 console.log(resultDispArray(result.skipped));
+
+// Concise object literal declarations using simple fields
+const createPerson = (name1, age1, gender1) => {
+    return {
+        name: name1,
+        age: age1,
+        gender: gender1
+    };
+};
+
+console.log(createPerson("Person1", 25, "Male"));
+
+// making the above code concise
+const createPerson2 = (name2, age2, gender2) => ({name2, age2, gender2});
+console.log(createPerson2("Person2", 25, "Male"));
