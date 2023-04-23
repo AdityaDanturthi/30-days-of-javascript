@@ -34,3 +34,20 @@ function getMaxOfTmrw(forecast) {
 }
 
 console.log("Tomorrow's max:", getMaxOfTmrw(LOCAL_FORECAST));
+
+// Destructuring assignment to assign variables from arrays
+ const [i, k] = [1, 2, 3, 4, 5, 6];
+
+ console.log("i:",i); // 1
+ console.log("k:", k); // 2
+
+ let d= 6, l = 8;
+
+ (() => {
+    "use strict";
+    [d , l] = [l, d];
+ }) ();
+
+ console.log("l:", l); //6
+ console.log("d:",d) // 8
+
