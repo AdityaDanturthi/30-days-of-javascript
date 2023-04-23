@@ -15,7 +15,7 @@ console.log(greeting);
 // example 2
 const result = {
     success: ["max-length", "no-amd", "prefer-arrow-functions"],
-    failure: [ "no-var", "var-on-top", "linebreak"],
+    failure: ["no-var", "var-on-top", "linebreak"],
     skipped: ["id-list", "no-dup-keys"]
 };
 
@@ -29,4 +29,15 @@ function makelist(arr) {
 }
 
 const resultDisplayArray = makelist(result.success);
-console.log(resultDisplayArray);
+console.log(resultDisplayArray); 
+
+// Converted above function into an arrow function
+const resultDispArray = (list) => {
+    const resArray = [];
+    for(var i=0; i<list.length; i++) {
+        resArray.push(`<li class="text-warning">${list[i]}</li>`);
+    }
+    return resArray;
+};
+
+console.log(resultDispArray(result.skipped));
