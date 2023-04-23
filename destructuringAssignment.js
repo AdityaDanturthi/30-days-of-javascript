@@ -51,3 +51,14 @@ console.log("Tomorrow's max:", getMaxOfTmrw(LOCAL_FORECAST));
  console.log("l:", l); //6
  console.log("d:",d) // 8
 
+// Destructuring assignment with the rest operator
+const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function removeFirstTwo (list) {
+    const [, , ...arr] = list;
+
+    return arr;
+}
+
+const arr = removeFirstTwo(source);
+console.log(arr);
+console.log("Source:", source);
