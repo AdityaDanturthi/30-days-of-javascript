@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Event Listeners</title>
+</head>
+<body class="bg-gradient-to-b from-bluegrey to-greywhite bg-cover bg-fixed bg-no-repeat">
+    <h1 id="main-heading" class="text-white font-bold text-7xl text-center my-24">Event Listeners</h1>
+
+    <div class="container text-white flex flex-row gap-x-10 justify-center mx-auto">
+        <div class="boxes box-1 border-2 rounded-md px-6 py-24 border-white flex flex-col gap-y-16">
+            <h1 id="heading" class="font-medium text-4xl">Example 1</h1>
+            <button class="btn border-white border-2 rounded-lg mx-0 text-lg py-2" onclick="alert('I love JavaScript!')">Enter</button>
+        </div>
+        <div class="boxes box-2 border-2 rounded-md px-6 py-24 border-white flex flex-col gap-y-16">
+            <h1 id="heading" class="font-medium text-4xl">Example 2</h1>
+            <button class="btn-2 border-white border-2 rounded-lg mx-0 text-lg py-2">Enter</button>
+        </div>
+        <div class="boxes box-3 border-2 rounded-md px-6 py-24 border-white flex flex-col gap-y-16">
+            <h1 id="heading" class="font-medium text-4xl">Example 3</h1>
+            <button class="btn-3 border-white border-2 rounded-lg mx-0 text-lg py-2">Enter</button>
+        </div>
+    </div>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                'bluegrey': '#1F2C35',
+                'greywhite': '#4a6070',
+            }
+            }
+        }
+     }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
